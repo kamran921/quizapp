@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>QuizApp</title>
+	</head>
+	<link rel=stylesheet href="style.css" />
+	<script src="script.js" type="text/javascript"></script>
+	<body>
+		<form onsubmit="check();" method="get" id="mainform">
+			<h1>Mix Quiz</h1>
+			<dl id="defl">
+				<dt>Who developed C++ ?</dt>
+				<dd>
+					<label><input type="radio" name="102" value="1" /><span></span>Linus Torvalds</label></br>
+			<label><input type="radio" name="102" value="2" /><span></span>Dennis Ritchie</label></br>
+		<label><input type="radio" name="102" value="3" /><span></span>Bjarne Stroustrup</label></br>
+					<label><input type="radio" name="102" value="4" /><span></span>James Gosling</label>
+				</dd>
+				<dt>What is Fear of Clowns called ?</dt>
+				<dd>
+					<label><input type="radio" name="204" value="1" /><span></span>Coulrophobia</label></br>
+<label><input type="radio" name="204" value="2" /><span></span>Pathophobia</label></br>
+<label><input type="radio" name="204" value="3" /><span></span>Testophobia</label></br>
+					<label><input type="radio" name="204" value="4" /><span></span>Nyctophobia</label>
+				</dd>
+				<dt>What is recommended daily intake for Zinc ?</dt>
+				<dd>
+					<label><input type="radio" name="409" value="1" /><span></span>8mg</label></br>
+<label><input type="radio" name="409" value="2" /><span></span>20mg</label></br>
+<label><input type="radio" name="409" value="3" /><span></span>10mg</label></br>
+					<label><input type="radio" name="409" value="4" /><span></span>15mg</label>
+				</dd>
+				<dt>Number of Roots in equation x<sup>6</sup>-x-10 ?</dt>
+				<dd>
+					<label><input type="radio" name="819" value="1" /><span></span>10</label></br>
+<label><input type="radio" name="819" value="2" /><span></span>5</label></br>
+<label><input type="radio" name="819" value="3" /><span></span>6</label></br>
+					<label><input type="radio" name="819" value="4" /><span></span>7</label>
+				</dd>
+				<dt>What will Momentum be when force is Doubled ?</dt>
+				<dd>
+					<label><input type="radio" name="163" value="1" /><span></span>Half</label></br>
+<label><input type="radio" name="163" value="2" /><span></span>Doubled</label></br>
+<label><input type="radio" name="163" value="3" /><span></span>Same</label></br>
+					<label><input type="radio" name="163" value="4" /><span></span>Half of Half</label>
+				</dd>
+			</dl>
+			<input id="btn" type="submit" value="Submit" />
+		</form>
+		<div id="result">
+		<p id="res"></p>
+		</div>
+	</body>
+</html>
