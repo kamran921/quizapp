@@ -11,5 +11,5 @@ var check = function () {
 	if (elements[2].checked) correct += 1;
 	document.body.removeChild(document.getElementById("mainform"));
 	document.getElementById("res").setAttribute("style","display:block;");
-	document.getElementById("res").textContent = `Your Result is: ${correct}/5`;
+	document.getElementById("res").textContent = "Your Result is: " + correct + "/5";
 };
